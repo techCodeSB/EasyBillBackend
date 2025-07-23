@@ -13,8 +13,8 @@ const PORT = 8080;
 
 
 app.use(cors({
-  // origin: ["http://localhost:3000", "https://ezybill-psi.vercel.app"]
-  origin: "http://localhost:3000"
+  origin: ["http://localhost:3000", "https://ezybill-psi.vercel.app"]
+  // origin: "http://localhost:3000"
 }))
 
 // app.use(cors())
